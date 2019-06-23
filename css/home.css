@@ -1,22 +1,19 @@
 body {
-  font-family: 'Play', sans-serif;
-  color: #A3EBB1;
-  line-height: 30px;
-}
-
-.bg-image {
-  background:linear-gradient(
-  rgba(005, 0, 0, 0.45), 
-  rgba(102,255,153,0.2)
-  ),url("../img/skritt1.jpg");
-  background-attachment: fixed;
-  filter: blur(8px);
+    background:linear-gradient(
+        rgba(005, 0, 0, 0.45), 
+        rgba(102,255,153,0.2)
+      ),url("../img/skritt1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+    color: #A3EBB1;
+    line-height: 30px;
 }
 
 .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon a {
