@@ -1,0 +1,196 @@
+/*navigation bar starts here*/
+
+ /* .container{
+    width: 100%;
+    /* max-width: 1000px;
+    margin: auto; 
+}  */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+header{
+    background-color: #116530;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top:0px;
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+#logo{
+    font-family:'Play', sans-serif;
+    color:#A3EBB1;
+    margin:16px;
+    left: 0;
+}
+
+#logo span{
+    font-weight: 300;
+}
+
+/*gain focus, makes it tabbable*/
+.nav-toggle{
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+.nav-toggle:focus ~ .nav-toggle-label {
+    outline: 3px solid rgba(#A3EBB1, .75);
+  }
+
+/*nav-toggle = hamburger ir right corner!*/
+
+.nav-toggle-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    display: block;
+    background: #B5EECB;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before{
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after{
+    top: 7px;
+}
+
+nav{
+    position: absolute;
+    text-align:left;
+    top:100%;
+    left: 0%;
+    background-color:#116530;
+    width: 100%;
+    font-family:'Roboto', sans-serif;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ nav li{
+     margin-bottom:1em;
+     margin-left:1em;
+ }
+
+
+ nav a{
+     color:#A3EBB1;
+     /* padding: 1em 2em; */
+     text-decoration: none;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     opacity: 0;
+     transition: opacity 150ms ease-in-out;
+     
+ }
+
+ nav a:hover{
+     color: #475250;
+ }
+ 
+ .nav-toggle:checked ~ nav{ 
+    transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 1024px){
+
+    .nav-toggle-label{
+        display:none;
+    }
+
+    div.container {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav{
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1, 1);
+        display: flex;
+        top:initial;
+        left: initial;
+        grid-column: 3 / 4;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Play', sans-serif;
+    }
+
+    nav ul{
+        display: flex;
+}
+
+    nav li{
+        margin-left: 3em;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    nav a{
+        opacity: 1;
+        position: relative;
+    }
+    nav a:hover,
+    nav a:focus{
+        color:#A3EBB1;
+ }
+
+    nav a::before {
+        content: '';
+        display: block;
+        height: 3px;
+        background: #B5EECB;
+        position: absolute;
+        top: -.15em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+    }
+
+    nav a:hover::before{
+        transform: scale(1, 1);
+    }
+}

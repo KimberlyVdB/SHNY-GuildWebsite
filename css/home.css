@@ -1,0 +1,46 @@
+body {
+  font-family: 'Play', sans-serif;
+  color: #A3EBB1;
+  line-height: 30px;
+}
+
+.bg-image {
+  background:linear-gradient(
+  rgba(005, 0, 0, 0.45), 
+  rgba(102,255,153,0.2)
+  ),url("../img/skritt1.jpg");
+  background-attachment: fixed;
+  filter: blur(8px);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon a {
+  color:#A3EBB1;
+}
+
+
+.home {
+  margin-top: 420px;
+}
+.icon a :hover {
+  color:  #116530;
+}
+
+.tag, .guildName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
