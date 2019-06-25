@@ -1,0 +1,55 @@
+body {
+    font-family: 'Play', sans-serif;
+    color: #A3EBB1;
+    background: #116530;
+    background: url("../img/skritt1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mainContainer {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #11653095;
+    height: 100%;
+    margin-top: 0;
+}
+
+/*  *RECRUITMENT PAGE */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    line-height: 15px;
+    margin-left: 380px;
+}
+.content span {
+    color: white;
+    font-weight: bold;
+}
+
+.content ul {
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.content ul :last-child{
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 380px;
+}
+
+.userMessage {
+    width: 700px;
+    height: 100px;
+    background: #A3EBB1;
+    color: #116530;
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
