@@ -11,7 +11,7 @@
   }
 
 header{
-    background-color: #116530;
+    background-color: #18A558;
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -89,7 +89,7 @@ nav{
     text-align:left;
     top:100%;
     left: 0%;
-    background-color:#116530;
+    background-color:#18A558;
     width: 100%;
     font-family:'Roboto', sans-serif;
     transform: scale(1, 0);
@@ -107,7 +107,6 @@ nav{
      margin-bottom:1em;
      margin-left:1em;
  }
-
 
  nav a{
      color:#A3EBB1;
