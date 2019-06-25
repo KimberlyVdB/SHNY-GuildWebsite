@@ -5,6 +5,7 @@ body {
     background: url("../img/skritt1.jpg");
     background-attachment: fixed;
     background-size: cover;
+    font-size: 1.1rem;
 }
 
 .mainContainer {
@@ -20,9 +21,10 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 75px;
     line-height: 15px;
     margin-left: 380px;
+    height: 100vh;
 }
 .content span {
     color: white;
@@ -39,17 +41,46 @@ body {
     margin-bottom: 10px;
 }
 
+.applyTitle {
+    margin: 40px 0px 40px 0px;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    margin-left: 380px;
 }
 
 .userMessage {
-    width: 700px;
+    width: 500px;
     height: 100px;
     background: #A3EBB1;
     color: #116530;
     font-family: 'Play', sans-serif;
     font-size: 1rem;
+}
+
+.userName {
+    background: #A3EBB1;
+    color: #116530;
+    width: 150px;
+    height: 30px;
+}
+
+.userNameLabel {
+    margin: 15px 0px 15px 0px;
+}
+
+label {
+    line-height: 20px;
+}
+
+button {
+    background-color: #A3EBB1;
+    color: #116530;
+    font-weight: 800;
+    height: 35px;
+    width: 120px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
 }
