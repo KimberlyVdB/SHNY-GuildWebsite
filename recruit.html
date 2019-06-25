@@ -22,11 +22,11 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <nav class="site-nav site-nav--open">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="fashion.html">Fashion Game</a></li>
-          <li><a href="recruit.html">Recruitment</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="fashion.html">Fashion Game</a></li>
+          <li class="nav-item current"><a href="recruit.html">Apply💎</a></li>
+          <li class="nav-item"><a href="feedback.html">Feedback</a></li>
         </ul>
       </nav>
       <!-- toggle is hamburger in the corner -->
@@ -35,6 +35,43 @@
       </label>
     </div>
   </header>
+
+  <main class="mainContainer">
+    <div class="content">
+
+      <h1>So you are thinking of applying?</h1>
+
+      <ul>
+        <li>We don't have a lot of strict rules, our main goal is to have fun together, not run a dictatorship. </li>
+        <li> However,
+          general
+          etiquette, decency and maturity is expected.</li>
+
+        <li><span>Racial, religious, sexual and/or any other type of discrimination will not be tolerated, even as
+            jokes.</span></li>
+
+        <li> If you came here from a forum or reddit post, then you have read about our guild and know what we expect
+          from
+          you.</li>
+        <li></li>If
+        not, then you need to read below before applying!</li>
+
+        <li>Applications are currently: <span>OPEN</span></li>
+      </ul>
+    </div>
+
+    <form>
+      <label> <input type="checkbox" name="agree">I understand and accept the rules.</label>
+      <label> <input type="checkbox" name="agree">I understand I will be kicked if I'm offline for over 3 months without
+        a
+        notice.</label>
+      <label> <input type="checkbox" name="agree">I play on European servers.</label>
+      <label><input class="userName" placeholder="ingame name"></label>
+      <label for="joinWhy">Why would you like to join/ tell us about yourself below</label>
+      <textarea class="userMessage" name="user message"></textarea>
+      <button type="submit" class="subBtn">Apply now</button>
+    </form>
+  </main>
 </body>
 
 </html>
