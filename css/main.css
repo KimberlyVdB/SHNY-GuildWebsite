@@ -8,6 +8,11 @@ body {
     font-size: 1.1rem;
 }
 
+h3 {
+    color: white;
+}
+
+
 .mainContainer {
     margin-left: 150px;
     margin-right: 150px;
@@ -15,8 +20,6 @@ body {
     height: 100%;
     margin-top: 0;
 }
-
-/*  *RECRUITMENT PAGE */
 
 .content {
     display: flex;
@@ -26,6 +29,7 @@ body {
     margin-left: 380px;
     height: 100vh;
 }
+
 .content span {
     color: white;
     font-weight: bold;
@@ -40,6 +44,8 @@ body {
 .content ul :last-child{
     margin-bottom: 10px;
 }
+
+/*  *RECRUITMENT/APPLY PAGE */
 
 .applyTitle {
     margin: 40px 0px 40px 0px;
@@ -84,3 +90,6 @@ button {
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
 }
+
+/* About page */
+
