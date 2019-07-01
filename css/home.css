@@ -13,6 +13,14 @@ body {
 .home {
   margin-top: 380px;
 }
+
+.home h1 {
+  color: white;
+}
+.home h3 {
+  color: white;
+}
+
 .icon a :hover {
   color:  #116530;
 }
@@ -36,4 +44,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 10%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .home {
+    margin-top: 300px;
+  }
 }
