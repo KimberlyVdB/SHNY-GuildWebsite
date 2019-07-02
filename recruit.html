@@ -13,81 +13,83 @@
 </head>
 
 <body>
+  <div class="wrapper">
+    <header>
+      <div class="container">
+        <h1 id="logo">
+          [ SHNY ] 💎🐀
+        </h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="site-nav site-nav--open">
+          <ul>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="fashion.html">Fashion Skritt</a></li>
+            <li class="nav-item current"><a href="recruit.html">Apply</a></li>
+            <li class="nav-item"><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </nav>
+        <!-- toggle is hamburger in the corner -->
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </div>
+    </header>
 
-  <header>
-    <div class="container">
-      <h1 id="logo">
-        [ SHNY ] 💎🐀
-      </h1>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <nav class="site-nav site-nav--open">
+    <main class="mainContainer">
+      <div class="content">
+
+        <h1 class="applyTitle">So you want to apply?</h1>
+        <p><span>Here is expected from members:</span></p>
         <ul>
-          <li class="nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="about.html">About</a></li>
-          <li class="nav-item"><a href="fashion.html">Fashion Skritt</a></li>
-          <li class="nav-item current"><a href="recruit.html">Apply</a></li>
-          <li class="nav-item"><a href="feedback.html">Feedback</a></li>
+          <li><span>Maturity and friendliness:</span> We're here to enjoy the game and there is no doubt there will be
+            silly moments.
+            What matters is you preserve a mature and friendly attitude. Keep an open mind, follow the general etiquette
+            and there shall be no drama!</li>
         </ul>
-      </nav>
-      <!-- toggle is hamburger in the corner -->
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-    </div>
-  </header>
-
-  <main class="mainContainer">
-    <div class="content">
-
-      <h1 class="applyTitle">So you want to apply?</h1>
-
-      <ul>
-        <li><span>Here is expected from members:</span></li>
-        <li><span>Maturity and friendliness:</span> We're here to enjoy the game and there is no doubt there will be
-          silly moments.
-          What matters is you preserve a mature and friendly attitude. Keep an open mind, follow the general etiquette
-          and there shall be no drama!</li>
-      </ul>
-      <ul>
-        <li><span>Decent amount of communication:</span> We expect you to engage with the guild chat, in-game and/or on
-          here. Say a
-          simple hi/bye, feel free to ask/answer questions and just chat with us. No one will bite!</li>
-      </ul>
-      <ul>
-        <li><span>Fair amount of representation:</span> There are no percentages to meet with representation, we just
-          want you to be
-          fair. If this guild provides you good time, give something back with a simple click.</li>
-      </ul>
-      <ul>
-        <li><span>Consistent activity and participation:</span> To not end up running a graveyard, we cleanup inactive
-          members
-          periodically. We also don't do lots of events every day and expect you to join them all but when we do
-          organize things, we'd like to see you there!</li>
-      </ul>
-      <ul>
-        <li><span>It is really important that you can satisfy at least 2 of those expectations,</span></li>
-        <li><span>while maturity and
-            friendliness
-            is a must!</span></li>
-        <li>Applications are currently: <span>OPEN</span></li>
-      </ul>
-      <form>
-        <label> <input type="checkbox" name="agree">I understand and accept the rules.</label>
-        <label> <input type="checkbox" name="agree">I understand I will be kicked if I'm offline for over 3 months
-          without
-          a
-          notice.</label>
-        <label> <input type="checkbox" name="agree">I play on European servers.</label>
-        <label> <input type="checkbox" name="discord">I will join and use discord <i
-            class="fab fa-discord fa-1x"></i></label>
-        <label class="userNameLabel">Your ingame name: <input class="userName" placeholder="ingame name"></label>
-        <label for="joinWhy">Why would you like to join/ tell us about yourself below:</label>
-        <textarea class="userMessage" name="user message"></textarea>
-        <button type="submit" class="subBtn">Apply now <i class="fas fa-mouse-pointer"></i></button>
-      </form>
-    </div>
-  </main>
-
+        <ul>
+          <li><span>Decent amount of communication:</span> We expect you to engage with the guild chat, in-game and/or
+            on
+            here. Say a
+            simple hi/bye, feel free to ask/answer questions and just chat with us. No one will bite!</li>
+        </ul>
+        <ul>
+          <li><span>Fair amount of representation:</span> There are no percentages to meet with representation, we just
+            want you to be
+            fair. If this guild provides you good time, give something back with a simple click.</li>
+        </ul>
+        <ul>
+          <li><span>Consistent activity and participation:</span> To not end up running a graveyard, we cleanup inactive
+            members
+            periodically. We also don't do lots of events every day and expect you to join them all but when we do
+            organize things, we'd like to see you there!</li>
+        </ul>
+        <ul>
+          <li><span>It is really important that you can satisfy at least 2 of those expectations,</span></li>
+          <li><span>while maturity and
+              friendliness
+              is a must!</span></li>
+        </ul>
+        <div>
+          <p>Applications are currently: <span>OPEN</span></p>
+        </div>
+        <form>
+          <label> <input type="checkbox" name="agree">I understand and accept the rules.</label>
+          <label> <input type="checkbox" name="agree">I understand I will be kicked if I'm offline for over 3 months
+            without
+            a
+            notice.</label>
+          <label> <input type="checkbox" name="agree">I play on European servers.</label>
+          <label> <input type="checkbox" name="discord">I will join and use discord <i
+              class="fab fa-discord fa-1x"></i></label>
+          <label class="userNameLabel">Your ingame name: <input class="userName" placeholder="ingame name"></label>
+          <label for="joinWhy">Why would you like to join/ tell us about yourself below:</label>
+          <textarea class="userMessage" name="user message"></textarea>
+          <button type="submit" class="subBtn">Apply now <i class="fas fa-mouse-pointer"></i></button>
+        </form>
+      </div>
+    </main>
+  </div>
   <footer>
     <div class="footerDiv">Made by Sugarcube power by skritt you can also find us on:
       <a href="https://www.instagram.com/a_skritt_at_heart/">
