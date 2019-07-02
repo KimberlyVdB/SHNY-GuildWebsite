@@ -16,13 +16,15 @@ body {
   }
 
 h1 {
+  font-size: 3rem;
   margin: 35px 0 35px 0px;
   line-height: 35px;
   color: white;
 }
 
 h3 {
-    color: white;
+  font-size: 1.8rem;
+  color: white;
 }
 
 .mainContainer {
@@ -44,9 +46,11 @@ h3 {
   height: 100%;
 }
 
+/* About page */
+
 .content span {
   color: white;
-  font-weight: 600;
+  font-weight: 4  00;
 }
 
 .content ul {
@@ -57,15 +61,40 @@ h3 {
 }
 
 .content ul :first-child{
-  margin: 5px 0 20px 0;
+  margin: 20px 0 0px 0;
 }
 
-
-.content ul :last-child{
-  margin: 20px 0 20px 0;
+.openApp {
+  margin-bottom: 20px;
 }
 
-/*  *RECRUITMENT/APPLY PAGE */
+/* Fashion Skritt page */
+
+.card {
+  border: 5px #A3EBB1 solid;
+  width: 100%;
+  border-radius: 5px;
+  margin: 40px 0 0 0;
+}
+
+.card li {
+  line-height: 15px;
+}
+
+.card li:first-child {
+  margin: 15px 0 0 0;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px #A3EBB1 solid;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/* RECRUITMENT/APPLY PAGE */
 
 .applyTitle {
   margin: 40px 0px 40px 0px;
@@ -77,8 +106,8 @@ form {
 }
 
 .userMessage {
-  width: 40%;
-  height: 70%;
+  width: 80%;
+  height: 10vh;
   background: #A3EBB1;
   color: #116530;
   font-family: 'Play', sans-serif;
@@ -111,14 +140,43 @@ button {
   text-transform: uppercase;
 }
 
-/* About page */
+@media only screen and (max-width: 1024px) {
 
-@media only screen and (max-width: 600px) {
+  body {
+    background: black;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+
   .content {
-    margin-top: 75px;
-    line-height: 16px;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 100%;
+    margin-top: 65px;
+    line-height: 15px;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+
+  .mainContainer {
+    background-color: #116530;
+    height: auto;
+    width: 120vw;
+    margin: 0;
+    padding-bottom:60px; 
+    align-content: center;
+  }
+
+  .card {
+    border: 5px #A3EBB1 solid;
+    width: 95%;
+    border-radius: 5px;
+    margin: 35px 0 0 0;
+    justify-content: center
   }
 }
