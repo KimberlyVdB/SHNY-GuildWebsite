@@ -90,8 +90,8 @@ h3 {
   border-bottom: 2px #A3EBB1 solid;
 }
 
-.container {
-  padding: 2px 16px;
+.cardContainer {
+  margin: 10px 0 10px 10px;
 }
 
 /* RECRUITMENT/APPLY PAGE */
@@ -154,10 +154,6 @@ button {
   h3 {
     font-size: 1.5rem;
   }
-
-  /* .aboutpage {
-    width: 60%
-  } */
 
   .content {
     margin-top: 65px;
