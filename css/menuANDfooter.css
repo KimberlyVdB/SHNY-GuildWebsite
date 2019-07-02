@@ -207,18 +207,15 @@ footer {
     height:50px;
 }
 
-.footerText {
-
+.footerDiv {
+    margin: 8px 0 8px 0;
 }
 
-.icon {
-    padding-left: 6px;
-    margin-top: 15px;
+.footerDiv a {
+    color: #A3EBB1;
 }
 
-.icon a {
-  color:#A3EBB1;
-}
+
 
 @media only screen and (max-width: 600px) {
 
