@@ -1,8 +1,3 @@
 {
   "liveServer.settings.port": 5501,
-  "homepage": "https://sugarcubeiscoding.github.io/SHNY-GuildWebsite",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
 }
