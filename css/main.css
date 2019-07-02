@@ -1,120 +1,124 @@
 body {
-    font-family: 'Play', sans-serif;
-    color: #A3EBB1;
-    background: #116530;
-    background: url("../img/skritt1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 1.1rem;
-    margin:0;
-   padding:0;
-   height:100%;
+  font-family: 'Play', sans-serif;
+  color: #A3EBB1;
+  background: #116530;
+  background: url("../img/skritt1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 1.1rem;
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
 .wrapper {
-    min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px);
   }
 
 h1 {
-    margin: 35px 0 35px 0px;
-    line-height: 35px;
-    color: white;
+  margin: 35px 0 35px 0px;
+  line-height: 35px;
+  color: white;
 }
 
 h3 {
     color: white;
 }
 
-
 .mainContainer {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #11653095;
-    height: 100%;
-    margin-top: 0;
-    padding-bottom:60px; 
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #116530;
+  height: 100%;
+  margin-top: 0;
+  padding-bottom:60px; 
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 65px;
-    line-height: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  line-height: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 100%;
 }
 
 .content span {
-    color: white;
-    font-weight: bold;
-    font-weight: 200;
+  color: white;
+  font-weight: 600;
 }
 
 .content ul {
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  line-height: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.content ul :first-child{
+  margin: 5px 0 20px 0;
+}
+
+
 .content ul :last-child{
-    margin-bottom: 10px;
+  margin: 20px 0 20px 0;
 }
 
 /*  *RECRUITMENT/APPLY PAGE */
 
 .applyTitle {
-    margin: 40px 0px 40px 0px;
+  margin: 40px 0px 40px 0px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .userMessage {
-    width: 40%;
-    height: 70%;
-    background: #A3EBB1;
-    color: #116530;
-    font-family: 'Play', sans-serif;
-    font-size: 1rem;
+  width: 40%;
+  height: 70%;
+  background: #A3EBB1;
+  color: #116530;
+  font-family: 'Play', sans-serif;
+  font-size: 1rem;
 }
 
 .userName {
-    background: #A3EBB1;
-    color: #116530;
-    width: 150px;
-    height: 30px;
+  background: #A3EBB1;
+  color: #116530;
+  width: 150px;
+  height: 30px;
 }
 
 .userNameLabel {
-    margin: 15px 0px 15px 0px;
+  margin: 15px 0px 15px 0px;
 }
 
 label {
-    line-height: 22px;
+  line-height: 22px;
 }
 
 button {
-    background-color: #A3EBB1;
-    color: #116530;
-    font-weight: 800;
-    height: 35px;
-    width: 120px;
-    margin: 10px 0px 10px 0px;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
+  background-color: #A3EBB1;
+  color: #116530;
+  font-weight: 800;
+  height: 35px;
+  width: 120px;
+  margin: 10px 0px 10px 0px;
+  font-family: 'Play', sans-serif;
+  text-transform: uppercase;
 }
 
 /* About page */
 
 @media only screen and (max-width: 600px) {
-    .content {
+  .content {
     margin-top: 75px;
     line-height: 16px;
     margin-left: 20%;
     margin-right: 20%;
     height: 100%;
-    }
+  }
 }
