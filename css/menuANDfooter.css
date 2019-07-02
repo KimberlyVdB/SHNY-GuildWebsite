@@ -1,10 +1,4 @@
-/*navigation bar starts here*/
-
- /* .container{
-    width: 100%;
-    /* max-width: 1000px;
-    margin: auto; 
-}  */
+/* nav */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -77,35 +71,35 @@ header::after{
 }
 
 .nav-toggle-label span::before{
-    bottom: 7px;
+  bottom: 7px;
 }
 
 .nav-toggle-label span::after{
-    top: 7px;
+  top: 7px;
 }
 
 nav{
-    position: absolute;
-    text-align:left;
-    top:100%;
-    left: 0%;
-    background-color:#18A558;
-    width: 100%;
-    font-family:'Roboto', sans-serif;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 400ms ease-in-out;
+  position: absolute;
+  text-align:left;
+  top:100%;
+  left: 0%;
+  background-color:#18A558;
+  width: 100%;
+  font-family:'Roboto', sans-serif;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
 }
 
  nav ul{
-     margin: 0;
-     padding: 0;
-     list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
  }
 
  nav li{
-     margin-bottom:1em;
-     margin-left:1em;
+  margin-bottom:1em;
+    margin-left:1em;
  }
 
  nav a{
