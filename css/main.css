@@ -16,7 +16,7 @@ body {
   }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin: 35px 0 35px 0px;
   line-height: 35px;
   color: white;
@@ -140,7 +140,7 @@ button {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
 
   body {
     background: black;
@@ -148,12 +148,16 @@ button {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
+
+  /* .aboutpage {
+    width: 60%
+  } */
 
   .content {
     margin-top: 65px;
