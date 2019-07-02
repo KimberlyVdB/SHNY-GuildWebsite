@@ -208,22 +208,16 @@ footer {
 }
 
 .footerDiv {
-    margin: 8px 0 8px 0;
+    margin: 15px 0 8px 0;
 }
 
 .footerDiv a {
     color: #A3EBB1;
 }
 
-
-
 @media only screen and (max-width: 600px) {
 
-    /* footer {
-        flex-direction: column;
-    }
-
-    footer p {
-        line-height: 5px;
-    }*/
-} 
+  footer {
+    font-size: 0.8rem;
+  }
+}  
